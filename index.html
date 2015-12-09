@@ -28,16 +28,27 @@
 </head>
 
 <body ng-app="uvpApp">
-	<div class="page-header">
+
+	<div id="header" >
+		<a ui-sref="home"><img id="logo" src="img/uvp_logo.jpg" alt="logo" /></a> 
+		<a class="button" ui-sref="home">Home<span></span></a>
+		<a class="button" ui-sref="about-us">About Us<span></span></a>
+		<a class="button" ui-sref="our-mission">Our Mission<span></span></a>
+		<a class="button" ui-sref="support-us">Support Us<span></span></a>
+		<a class="button" id="donate" ui-sref="donate">Donate<span></span></a>
+	</div>
+
+	<!-- <div class="page-header">
 		<nav class="navbar navbar-default">
 			<ul class="nav navbar-nav">
 				<li class="active"><a ui-sref="home">Home</a></li>
 				<li><a ui-sref="about-us">About Us</a></li>
 				<li><a ui-sref="our-mission">Our Mission</a></li>
 				<li><a ui-sref="support-us">Support Us</a></li>
+				<li id="donate"><a ui-sref="donate">Donate</a></li>
 			</ul>
 		</nav>
-	</div>
+	</div> -->
 	<!-- html templates will be inserted here -->
 	<div ui-view><div>
 

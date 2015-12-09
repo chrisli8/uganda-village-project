@@ -1,0 +1,266 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+/*#e52d87 pink color*/
+
+h1, h2, .odd-div {
+    font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#header {
+	/*border-bottom:1px solid #e3e3e3;*/
+	background-color: rgba(255,255,255,0.6); /*#DB4307;*/
+	color: white;
+	overflow: hidden;
+    width: 100%;
+	height: 100px;
+    position: fixed;
+}
+
+#home-main {
+    /*position: relative;
+    top: -100px;*/
+    background-repeat: no-repeat;
+    background-image: url("img/Placeholder-Home_Main.jpg");
+    background-size: cover;
+    min-height: 650px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.odd-div {
+    /*top: -100px;*/
+    background-color: #D9DBDB;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 36px;   
+    background-image: url("img/Placeholder-background_hash.png");
+    color: #e52d87;
+    overflow: hidden;
+}
+
+.even-div, .odd-div {
+    position: relative;
+    z-index: -2;
+}
+
+/*Join us (facebook,youtube,twitter,donate)
+===================================*/
+
+#help div {
+    background-image: url("img/Placeholder-home_contentarea.png");
+    background-color: #c4c4c4;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+    padding: 50px;
+
+}
+
+#help img {
+    display: block;
+    margin:auto;
+    /*height: 100px;*/
+    width: 60px;
+}
+
+/*help us out content
+===================================*/
+#content {
+    background-image: url("img/Placeholder-home_contentarea.png");
+    color: white;
+    background-color:  #e52d87;
+}
+
+#content p {
+    font-size: 20px;
+}
+
+.gray span, a.gray span {
+    background-image: url("img/Placeholder-home_contentarea.png");
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    -webkit-transform: skewX(16deg);
+    -moz-transform: skewX(16deg);
+    -ms-transform: skewX(16deg);
+    transform: skewX(16deg);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand')";
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand');
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*z-index: -1;*/
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: #c4c4c4;
+    -webkit-transition: all 0.15s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -moz-transition: all 0.15s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -ms-transition: all 0.15s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -o-transition: all 0.15s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: all 0.15s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.gray, a.gray {
+    position: relative;
+    z-index: 1;
+    height: 50px;
+    padding: 0 20px;
+    margin: 0;
+    display: -moz-inline-stack;
+    display: inline-block;
+    text-decoration: none !important;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    /*font-family: 'CaeciliaLTStd-Light',serif;*/
+    line-height: 50px;
+    border: none;
+    margin-left: 10px;
+}
+
+/*home picture circles
+===================================*/
+
+#leaders img{
+    border-radius: 125px;
+    height: 250px;
+    width: 250px;
+    padding: 0px;
+    display:block;
+    margin:auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+#center-title {
+    text-align: center;
+}
+
+
+
+/*menu button styles
+===================================*/
+.menu-btn {
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	display: block;
+	height: 50px;
+	width: 180px;
+	margin: 0px;
+	float: left;
+	line-height: 45px;
+}
+
+.menu-btn, .menu-btn:hover, .menu-btn:visited, .menu-btn:link {
+	color: white;
+	text-decoration: none;
+}
+
+.menu-btn:hover {
+	background-color: #0fa8e4;
+}
+
+#logo {
+    position: relative;
+    z-index: 1;
+    height: 100px;
+    padding: 0 20px;
+    margin: 0;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    text-decoration: none !important;
+    color: #fff;
+    /*font-family: 'CaeciliaLTStd-Light',serif;*/
+    border: none;
+    margin-left: 10px;
+}
+
+/*link styles & donate button style
+=====================================*/
+#donate {
+	float: right;
+	margin-right: 40px;
+}
+
+.button span, a.button span {
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    -webkit-transform: skewX(16deg);
+    -moz-transform: skewX(16deg);
+    -ms-transform: skewX(16deg);
+    transform: skewX(16deg);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand')";
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand');
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*z-index: -1;*/
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: #e52d87;
+    -webkit-transition: all 0.15s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -moz-transition: all 0.15s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -ms-transition: all 0.15s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -o-transition: all 0.15s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: all 0.15s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.button span:hover {
+    background: #0fa8e4;
+}
+
+/*a:hover {
+    background: #0fa8e4;
+}*/
+
+a, a:link, a:visited {
+
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    color: #e52d87;
+}
+
+.button, a.button {
+    position: relative;
+    z-index: 1;
+    height: 50px;
+    padding: 0 20px;
+    margin: 0;
+    display: -moz-inline-stack;
+    display: inline-block;
+    text-decoration: none !important;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    /*font-family: 'CaeciliaLTStd-Light',serif;*/
+    line-height: 50px;
+    border: none;
+    margin-left: 10px;
+}

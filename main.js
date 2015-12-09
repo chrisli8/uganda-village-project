@@ -23,6 +23,12 @@ uvpApp.config(function($stateProvider) {
 			templateUrl: 'templates/support-us.html',
 			controller: 'SupportController'
 		})
+		.state('donate', {
+			url: '/donate',
+			templateUrl: 'templates/donate.html',
+			controller: 'SupportController'
+		})
+
 })
 
 //instantiate controllers
